@@ -1,6 +1,7 @@
 require "test_helper"
 
 class StaticPagesControllerTest < ActionDispatch::IntegrationTest
+  # 各テストで使う共通タイトルを準備する
   def setup
     @base_title = "Ruby on Rails Tutorial Sample App"
   end
